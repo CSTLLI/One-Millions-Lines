@@ -19,8 +19,33 @@
 
 /* ### MEDIA QUERIES ### */
 
-@media (minwidth: 1200px){
-	.navbar-dekstop{
-		display:flex;
+@media only screen and (min-width: 1200px){
+
+	.container-dekstop{
+		width: 70%;
+		margin: auto;
+	}
+
+	/* SECTION 1 */
+
+	.section1 div{
+		padding: 100px 0;
+	}
+
+	.section1 img{
+		width: 10%;
+	}
+
+	/* SECTION 2 */
+
+	.infos{
+		display: flex;
+		flex-direction: row;
+	}
+
+	/* FOOTER  */
+
+	footer img{
+		width: 30%;
 	}
 }
