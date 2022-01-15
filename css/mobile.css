@@ -1,0 +1,153 @@
+/* ************************************************************************************** */
+/*                                                                                        */																					  
+/* Project: One-Millions-Lines                          / $$      /$$ /$$$$$$$$ /$$$$$$   */
+/*                  			                        | $$  /$ | $$| $$_____//$$__  $$  */
+/* mobile.css                                     	    | $$ /$$$| $$| $$     |__/  \ $$  */
+/*                                                  	| $$/$$ $$ $$| $$$$$     /$$$$$/  */
+/* By: vcastell <valeriocastellipro@gmail.com>	        | $$$$_  $$$$| $$__/    |___  $$  */
+/*                                              		| $$$/ \  $$$| $$      /$$  \ $$  */
+/* Created: 2022/01/12 13:57:00 vcastell     	        | $$/   \  $$| $$     |  $$$$$$/  */
+/* Updated: 2022/01/12 13:57:00 vcastell                |__/     \__/|__/      \______/   */
+/*                                                                    				      */
+/******************************************************************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+
+:root{
+	--white: #ffffff;
+	--black: #000000;
+	--orange: #ff6347;
+	--gray: #797878;
+	--gray-light: #d9d7d7;
+	--gray-dark: #292626;
+}
+
+html{
+	font-size: 62,5%;
+	font-family: 'Arvo', serif;
+}
+
+body{
+	margin: 0;
+	font-size: 1.3rem;
+}
+
+.container-mobile{
+	padding: 10px 20px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+.title-red{
+	color: var(--orange);
+}
+
+.separator{
+	width: 40%;
+	margin: auto;
+	margin-bottom: 10px;
+	border-bottom: 1px solid var(--orange);
+}
+
+/* ################# MOBILE  */
+
+/* ### HEADER ### */
+
+header .nav-mobile{
+	background-color: var(--gray-dark);
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	align-items: center;
+}
+
+#burger{
+	border-radius: 5px;
+	border: 1px solid var(--gray-light);
+	padding: 3px;
+	text-decoration: none;
+	color: var(--white);
+}
+
+/* ### MAIN ###  */
+
+section h2{
+	font-weight: 400;
+	margin: 10px;
+}
+
+section p{
+	font-weight: lighter;
+	font-size: 1.2rem;
+}
+
+/* SECTION 1 */
+
+.section1{
+	background-image: url("../images/hero-image.jpg");
+	color: var(--white);
+}
+
+.section1 img{
+	width: 35%;
+}
+
+.section1 a{
+	padding: 20px;
+	margin: 20px 0;
+	text-decoration: none;
+	color: var(--white);
+	border: 1px solid red;
+	border-radius: 10px;
+	background: var(--orange);
+}
+
+/* SECTION 2 */
+
+.section2{
+	padding: 60px 10px 20px 10px;
+}
+
+/* SECTION 3 */
+
+.section3{
+	background: var(--gray-light);
+	padding: 60px 10px 20px 10px;
+}
+
+.circle{
+	border: 1px solid var(--gray);
+	border-radius: 50%;
+    width: 16%;
+    padding: 30px 10px;
+    margin: auto;
+    display: flex;
+	justify-content: center;
+	background: var(--gray-dark);
+}
+
+.circle i{
+	color: white;
+	width: 30%;
+}
+
+/* ### FOOTER ### */
+
+footer{
+	padding: 100px 20px 20px 20px;
+	background: var(--orange);
+}
+
+footer img{
+	width: 80%;
+}
