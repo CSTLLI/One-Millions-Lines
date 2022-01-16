@@ -19,7 +19,7 @@
 
 /* ### MEDIA QUERIES ### */
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1020px){
 	.container-dekstop{
 		width: 70%;
 		margin: auto;
@@ -34,8 +34,6 @@
 	.section1 p{
 		padding: 0px 100px;
 	}
-
-	.section
 
 	/* SECTION 2 */
 
