@@ -13,13 +13,40 @@
 
 /* ################# DEKSTOP */
 
-.navbar-dekstop{
+header .nav-dekstop{
+	background-color: var(--gray-dark);
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 20%;
+	align-items: center;
 	display: none;
+}
+
+header .nav-dekstop ul{
+	display: flex;
+	gap: 20px;
+}
+
+header .nav-dekstop ul li, 
+header .nav-dekstop ul li a{
+	text-decoration: none;
+	list-style: none;
+	color: #797878;
 }
 
 /* ### MEDIA QUERIES ### */
 
 @media only screen and (min-width: 1020px){
+
+	header .nav-mobile{
+		display: none;
+	}
+	
+	header .nav-dekstop{
+		display: flex;
+	}
+
+
 	.container-dekstop{
 		width: 70%;
 		margin: auto;
