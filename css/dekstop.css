@@ -29,6 +29,7 @@ header .nav-dekstop ul{
 
 header .nav-dekstop ul li, 
 header .nav-dekstop ul li a{
+	font-weight: 700;
 	text-decoration: none;
 	list-style: none;
 	color: #797878;
